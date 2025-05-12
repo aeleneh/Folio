@@ -41,7 +41,6 @@ img {
 
 .image {
     border-radius: 0.625rem;
-    box-shadow: var(--shadow);
 }
 
 .icons { 
