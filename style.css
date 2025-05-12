@@ -196,6 +196,7 @@ nav {
     border-radius: 50%;
     max-height: 18.75rem;
     cursor: pointer;
+    box-shadow: var(--shadow);
 }
 
 .hero-section h1,
