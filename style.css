@@ -195,7 +195,6 @@ nav {
 .my-image {
     border-radius: 50%;
     max-height: 18.75rem;
-    box-shadow: 0.25rem 0 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
