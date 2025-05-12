@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+               <div class="logo">
+                    <img src="./My logo/1.svg" alt="My logo">
+               </div>
+               <nav>
+                <button class="mobile-menu-button" aria-label="Toggle navigation menu">&#9776;</button>
+                    <ul class="nav-container">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+                   <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/omowunmi-enahoro-62129123a/" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" enable-background="new 0 0 32 32" viewBox="0 0 32 32" id="linkedin">
+                                <path fill="#263238" d="M4.983 8.875H4.94C2.657 8.875 1 7.361 1 5.275c0-2.089 1.692-3.606 4.023-3.606 2.292 0 3.928 1.476 3.977 3.589C9 7.359 7.311 8.875 4.983 8.875zM5.023 2.669C3.243 2.669 2 3.741 2 5.275c0 1.531 1.209 2.601 2.94 2.601h.043C6.76 7.875 8 6.804 8 5.27 7.963 3.694 6.795 2.669 5.023 2.669zM7.5 29h-5C2.224 29 2 28.776 2 28.5v-18C2 10.224 2.224 10 2.5 10h5C7.776 10 8 10.224 8 10.5v18C8 28.776 7.776 29 7.5 29zM3 28h4V11H3V28zM30.5 29h-6c-.276 0-.5-.224-.5-.5V19c0-1.654-1.346-3-3-3s-3 1.346-3 3v9.5c0 .276-.224.5-.5.5h-6c-.276 0-.5-.224-.5-.5v-18c0-.276.224-.5.5-.5h6c.276 0 .5.224.5.5v3.014c0 .276-.224.5-.5.5s-.5-.224-.5-.5V11h-5v17h5v-9c0-2.206 1.794-4 4-4s4 1.794 4 4v9h5V17.5c0-3.584-2.916-6.5-6.5-6.5-1.384 0-2.722.406-3.871 1.173-.229.152-.54.092-.693-.138s-.092-.54.139-.693C20.388 10.464 21.918 10 23.5 10c4.136 0 7.5 3.364 7.5 7.5v11C31 28.776 30.776 29 30.5 29z"></path>
+                              </svg>
+                        </a>
+                        <a href="https://github.com/aeleneh" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg"width="25" height="25" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="github">
+                                <path d="m8.564 23.5c-.089 0-.187-.008-.292-.028-4.973-1.617-8.272-6.109-8.272-11.193 0-6.495 5.383-11.779 12-11.779s12 5.284 12 11.779c0 5.091-3.312 9.577-8.24 11.162-.569.113-.893-.044-1.073-.193-.235-.194-.37-.493-.37-.819l.004-.624c.004-.579.011-1.456.011-2.465 0-1.114-.458-1.586-.598-1.704-.153-.129-.215-.337-.157-.528.059-.192.226-.33.425-.352 2.374-.257 4.801-1.061 4.801-5.067 0-1.036-.352-1.939-1.045-2.687-.132-.142-.17-.348-.097-.528.101-.25.379-1.116-.011-2.321-.356.028-1.172.202-2.511 1.096-.12.08-.271.104-.409.066-.864-.235-1.788-.357-2.747-.363-.954.005-1.877.127-2.74.363-.14.039-.288.017-.41-.065-1.341-.889-2.16-1.066-2.528-1.093-.422 1.309-.05 2.196-.003 2.299.084.184.048.401-.09.548-.696.746-1.049 1.649-1.049 2.686 0 4.008 2.423 4.815 4.793 5.077.198.022.364.159.423.35.059.19 0 .397-.152.527-.166.142-.458.487-.559 1.2-.024.171-.136.318-.294.388-.614.27-2.717.983-3.98-1.141-.004-.007-.088-.151-.246-.323.197.268.4.614.577 1.054.036.107.622 1.785 3.306 1.21.149-.032.301.006.417.1.117.094.186.236.187.387l.014 1.92c0 .325-.135.624-.371.819-.142.118-.373.242-.714.242zm3.436-22c-6.065 0-11 4.835-11 10.779 0 4.65 3.021 8.759 7.518 10.226.054.008.11-.01.121-.017l.005-.623-.005-.755c-3.092.374-3.848-1.931-3.856-1.956-.417-1.032-.994-1.333-1.019-1.346-.281-.183-.865-.574-.698-1.11.15-.484.765-.528 1.001-.526 1.437.098 2.162 1.364 2.192 1.417.701 1.177 1.77 1.066 2.471.82.062-.279.152-.538.269-.77-2.281-.406-4.836-1.62-4.836-5.951 0-1.192.374-2.246 1.112-3.134-.164-.537-.355-1.647.208-3.061.055-.14.171-.247.314-.292.194-.059 1.246-.284 3.4 1.093.883-.221 1.819-.335 2.785-.341.971.005 1.906.12 2.79.34 2.143-1.377 3.193-1.153 3.386-1.093.144.045.259.152.314.292.549 1.38.378 2.494.216 3.057.739.892 1.113 1.946 1.113 3.14 0 4.329-2.556 5.539-4.839 5.942.239.476.369 1.062.369 1.709 0 1.013-.006 1.892-.011 2.473l-.004.616c.017.054.078.069.197.044 4.454-1.435 7.487-5.538 7.487-10.194 0-5.944-4.935-10.779-11-10.779z"></path>
+                              </svg>
+                        </a>
+                        <a href="mailto:enahoroomowunmi@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48" id="gmail">
+                                <g>
+                                  <path d="M44 7H4a4 4 0 0 0-4 4v26a4 4 0 0 0 4 4h40a4 4 0 0 0 4-4V11a4 4 0 0 0-4-4Zm2 30a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V11a2 2 0 0 1 2-2h40a2 2 0 0 1 2 2Z"></path>
+                                  <path d="M42.41 12.088a1 1 0 0 0-1.074.165L24 27.662 6.665 12.252A1 1 0 0 0 5 13v24a1 1 0 0 0 2 0V15.227l16.335 14.52a1 1 0 0 0 1.329 0L41 15.227V36a1 1 0 0 0 2 0V13a1 1 0 0 0-.59-.912Z"></path>
+                                  <path d="M23.354 23.763a1 1 0 0 0 1.292 0l13-11a1 1 0 0 0-1.292-1.526L24 21.69 11.646 11.237a1 1 0 1 0-1.292 1.526Z"></path>
+                                </g>
+                              </svg>
+                        </a>
+                   </div>
+        </header>
+        
+        <main>
+            <section class="hero-section">
+                <div class="image-container">
+                    <img src="./My images/IMG_1721.jpg" alt="An headshot of me" class="my-image">
+                </div>
+                <h1>Hey, I'm Omowunmi! <span class="wave">&#128075;</span></h1>
+                <h2>Welcome to my little slice of the web</h2>
+                <p>I'm a <span class="highlight">Frontend Developer</span> based in Lagos, Nigeria. I'll help you build beautiful websites that converts!</p>
+            </section>
+
+            <article id="projects" class="projects-section">
+                    <h3>Projects</h3>
+                    <section class="one">
+                        <div class="background-container">
+                             <div class="backgroundimage-container">
+                                 <img src="./My images/Journal landing page.jpg" alt="A Preview of the landing page" class="image">
+                            </div>
+                        </div>
+                         <p>Journal Landing page</p>
+                         <div class="links-container">
+                            <a href="https://aeleneh.github.io/Journal-landing-page/" target="_blank" rel="noopener noreferrer">Live Webpage</a>
+                            <a href="https://github.com/aeleneh/Journal-landing-page.git" target="_blank" rel="noopener noreferrer">Source Code</a>
+                         </div>
+                     </section>
+                     <section class="two">
+                         <div class="background-container">
+                             <div class="backgroundimage-container">
+                                 <img src="./My images/Testimonial grid card.jpg" alt="A Preview of the testimonial grid card" class="image">
+                             </div>
+                         </div>
+                         <p>Testimonial Card</p>
+                         <div class="links-container">
+                            <a href="https://aeleneh.github.io/Testimonials-Grid-Card-Challenge/" target="_blank" rel="noopener noreferrer">Live Webpage</a>
+                            <a href="https://github.com/aeleneh/Testimonials-Grid-Card-Challenge.git" target="_blank" rel="noopener noreferrer">Source Code</a>
+                         </div>
+                     </section>
+                    <section class="three">
+                        <div class="background-container">
+                            <div  class="backgroundimage-container">
+                                <img src="./My images/Simple Reciepe.jpg" alt="A Preview of the recipe webpage" class="image">
+                            </div>
+                        </div>
+                        <p>Recipe Page</p>
+                        <div class="links-container">
+                            <a href="https://aeleneh.github.io/Simple-Recipe-Page/" target="_blank" rel="noopener noreferrer">Live Webpage</a>
+                            <a href="https://github.com/aeleneh/Simple-Recipe-Page.git" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
+                    </section>
+                    <section class="four">
+                        <div class="background-container">
+                            <div class="backgroundimage-container">
+                                <img src="./My images/Chair counter.jpg" alt="A preview of the chair counter app" class="image">
+                            </div>
+                        </div>
+                        <p>Counter WepApp</p>
+                        <div class="links-container">
+                            <a href="https://aeleneh.github.io/Counter-App/" target="_blank" rel="noopener noreferrer">Live Webpage</a>
+                            <a href="https://github.com/aeleneh/Counter-App.git" target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
+                    </section>
+            </article>
+    
+            
+            <section id="about-me" class="about-me">
+                <h3>About Me</h3>
+                <h3><span class="unique">Here's what sets me apart and makes me unique</span></h3>
+                <p>Developing beautiful and functional websites is what I love doing, which is why I pour my heart and soul into every new challenge. 
+                    This passion drives me to continually expand my technical skills while focusing on creating intuitive user experiences that blends cutting-edge design with seamless functionality, 
+                    transforming clients' visions into digital reality that stands out in today's competitive online landscape.</p>
+                <h3><span class="stack">My Stack</span></h3>
+                <ul class="stack-list">
+                 <li>
+                    <img src="./social icons/html_14872190.png" alt="Html Icon" class="icons">
+                </li>
+                <li>
+                    <img src="./social icons/css_8176647.png" alt="CSS Icon" class="icons">
+                </li>
+                <li>
+                    <img src="./social icons/js_456766.png" alt="JS Icon" class="icons">
+                </li>
+                 <li>
+                    <img src="./social icons/github_2504911.png" alt="Github Icon" class="icons">
+                </li>   
+                <li>
+                    <img src="./social icons/git.png" alt="Git Icon" class="icons">
+                </li>
+                </ul>
+            </section>
+    
+            <section id="contact" class="contact-me">
+                <h3>Contact Me</h3>
+                <form action="https://formsubmit.co/enahoroomowunmi@gmail.com" method="POST">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="fullname" required>
+    
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email" required>
+    
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <p>&copy; Omowunmi Enahoro. All rights reserved.</p>
+        
+              <div class="footer-social-icons">
+                    <a href="https://www.linkedin.com/in/omowunmi-enahoro-62129123a/" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" enable-background="new 0 0 32 32" viewBox="0 0 32 32" id="linkedin">
+                            <path fill="#263238" d="M4.983 8.875H4.94C2.657 8.875 1 7.361 1 5.275c0-2.089 1.692-3.606 4.023-3.606 2.292 0 3.928 1.476 3.977 3.589C9 7.359 7.311 8.875 4.983 8.875zM5.023 2.669C3.243 2.669 2 3.741 2 5.275c0 1.531 1.209 2.601 2.94 2.601h.043C6.76 7.875 8 6.804 8 5.27 7.963 3.694 6.795 2.669 5.023 2.669zM7.5 29h-5C2.224 29 2 28.776 2 28.5v-18C2 10.224 2.224 10 2.5 10h5C7.776 10 8 10.224 8 10.5v18C8 28.776 7.776 29 7.5 29zM3 28h4V11H3V28zM30.5 29h-6c-.276 0-.5-.224-.5-.5V19c0-1.654-1.346-3-3-3s-3 1.346-3 3v9.5c0 .276-.224.5-.5.5h-6c-.276 0-.5-.224-.5-.5v-18c0-.276.224-.5.5-.5h6c.276 0 .5.224.5.5v3.014c0 .276-.224.5-.5.5s-.5-.224-.5-.5V11h-5v17h5v-9c0-2.206 1.794-4 4-4s4 1.794 4 4v9h5V17.5c0-3.584-2.916-6.5-6.5-6.5-1.384 0-2.722.406-3.871 1.173-.229.152-.54.092-.693-.138s-.092-.54.139-.693C20.388 10.464 21.918 10 23.5 10c4.136 0 7.5 3.364 7.5 7.5v11C31 28.776 30.776 29 30.5 29z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/aeleneh" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg"width="25" height="25" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="github">
+                            <path d="m8.564 23.5c-.089 0-.187-.008-.292-.028-4.973-1.617-8.272-6.109-8.272-11.193 0-6.495 5.383-11.779 12-11.779s12 5.284 12 11.779c0 5.091-3.312 9.577-8.24 11.162-.569.113-.893-.044-1.073-.193-.235-.194-.37-.493-.37-.819l.004-.624c.004-.579.011-1.456.011-2.465 0-1.114-.458-1.586-.598-1.704-.153-.129-.215-.337-.157-.528.059-.192.226-.33.425-.352 2.374-.257 4.801-1.061 4.801-5.067 0-1.036-.352-1.939-1.045-2.687-.132-.142-.17-.348-.097-.528.101-.25.379-1.116-.011-2.321-.356.028-1.172.202-2.511 1.096-.12.08-.271.104-.409.066-.864-.235-1.788-.357-2.747-.363-.954.005-1.877.127-2.74.363-.14.039-.288.017-.41-.065-1.341-.889-2.16-1.066-2.528-1.093-.422 1.309-.05 2.196-.003 2.299.084.184.048.401-.09.548-.696.746-1.049 1.649-1.049 2.686 0 4.008 2.423 4.815 4.793 5.077.198.022.364.159.423.35.059.19 0 .397-.152.527-.166.142-.458.487-.559 1.2-.024.171-.136.318-.294.388-.614.27-2.717.983-3.98-1.141-.004-.007-.088-.151-.246-.323.197.268.4.614.577 1.054.036.107.622 1.785 3.306 1.21.149-.032.301.006.417.1.117.094.186.236.187.387l.014 1.92c0 .325-.135.624-.371.819-.142.118-.373.242-.714.242zm3.436-22c-6.065 0-11 4.835-11 10.779 0 4.65 3.021 8.759 7.518 10.226.054.008.11-.01.121-.017l.005-.623-.005-.755c-3.092.374-3.848-1.931-3.856-1.956-.417-1.032-.994-1.333-1.019-1.346-.281-.183-.865-.574-.698-1.11.15-.484.765-.528 1.001-.526 1.437.098 2.162 1.364 2.192 1.417.701 1.177 1.77 1.066 2.471.82.062-.279.152-.538.269-.77-2.281-.406-4.836-1.62-4.836-5.951 0-1.192.374-2.246 1.112-3.134-.164-.537-.355-1.647.208-3.061.055-.14.171-.247.314-.292.194-.059 1.246-.284 3.4 1.093.883-.221 1.819-.335 2.785-.341.971.005 1.906.12 2.79.34 2.143-1.377 3.193-1.153 3.386-1.093.144.045.259.152.314.292.549 1.38.378 2.494.216 3.057.739.892 1.113 1.946 1.113 3.14 0 4.329-2.556 5.539-4.839 5.942.239.476.369 1.062.369 1.709 0 1.013-.006 1.892-.011 2.473l-.004.616c.017.054.078.069.197.044 4.454-1.435 7.487-5.538 7.487-10.194 0-5.944-4.935-10.779-11-10.779z"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:enahoroomowunmi@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 48 48" id="gmail">
+                            <g>
+                            <path d="M44 7H4a4 4 0 0 0-4 4v26a4 4 0 0 0 4 4h40a4 4 0 0 0 4-4V11a4 4 0 0 0-4-4Zm2 30a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V11a2 2 0 0 1 2-2h40a2 2 0 0 1 2 2Z"></path>
+                            <path d="M42.41 12.088a1 1 0 0 0-1.074.165L24 27.662 6.665 12.252A1 1 0 0 0 5 13v24a1 1 0 0 0 2 0V15.227l16.335 14.52a1 1 0 0 0 1.329 0L41 15.227V36a1 1 0 0 0 2 0V13a1 1 0 0 0-.59-.912Z"></path>
+                            <path d="M23.354 23.763a1 1 0 0 0 1.292 0l13-11a1 1 0 0 0-1.292-1.526L24 21.69 11.646 11.237a1 1 0 1 0-1.292 1.526Z"></path>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 300" preserveAspectRatio="none">
+  <!-- Background Color -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#e0e0e0" />
+  
+  <!-- Purple Wave 1 - Left Side -->
+  <path d="M-50,100 Q50,150 -20,300" fill="#7336CF" opacity="0.9" />
+  
+  <!-- Purple Wave 2 - Bottom -->
+  <path d="M150,350 Q300,250 500,320" fill="#7336CF" opacity="0.9" />
+  
+  <!-- Purple Wave 3 - Right Side Accent -->
+  <path d="M550,100 Q450,180 520,-20" fill="#7336CF" opacity="0.9" />
+</svg>
