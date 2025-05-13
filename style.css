@@ -649,7 +649,7 @@ footer p {
   
     .nav-container.show{
     display: flex;
-    animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
     }
 
     @keyframes fadeIn {
@@ -755,6 +755,7 @@ footer p {
     }
 }
 
+
 @media (hover: hover) and (pointer: fine) {
     .nav-container li a:hover,
     .links-container a:hover,
@@ -764,7 +765,20 @@ footer p {
     }
 }
 
+/* For touch devices */
 @media (hover: none) and (pointer: coarse) {
+    .nav-container li a:active,
+    .links-container a:active,
+    .social-icons a:active,
+    .footer-social-icons a:active {
+        transform: scale(1.05);
+        transition: transform 0.2s;
+    }
+  
+    .nav-container li a:active::before {
+        width: 100%; 
+    }
+    
     .nav-container li a,
     .links-container a,
     .social-icons a,
