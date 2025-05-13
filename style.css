@@ -765,7 +765,6 @@ footer p {
     }
 }
 
-/* For touch devices */
 @media (hover: none) and (pointer: coarse) {
     .nav-container li a:active,
     .links-container a:active,
@@ -774,15 +773,19 @@ footer p {
         transform: scale(1.05);
         transition: transform 0.2s;
     }
-  
+    
     .nav-container li a:active::before {
-        width: 100%; 
+        width: 100%;
     }
     
-    .nav-container li a,
-    .links-container a,
-    .social-icons a,
-    .footer-social-icons a {
-        -webkit-tap-highlight-color: transparent;
+    .links-container a:active::before {
+        left: 100%;
+    }
+
+    .social-icons a:active {
+        transform: translateY(-6px) scale(1.1);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     }
 }
+
+
